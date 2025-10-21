@@ -28,7 +28,7 @@ if st.button("Scrape & Load"):
         st.error("⚠️ Please paste a URL.")
 
 # Ask question
-query = st.text_input("💬 Ask your question:")
+query = st.text_input("Ask your question:")
 
 if st.button("Ask") and query:
     qa = st.session_state.get('qa_system')
