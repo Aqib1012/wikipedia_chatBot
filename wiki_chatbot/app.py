@@ -5,7 +5,7 @@ from chatbot import create_qa_system
 # Streamlit page setup
 st.set_page_config(page_title="Wiki Chatbot", layout="wide")
 st.title("Wikipedia Chatbot — LangChain + Groq")
-st.caption("Paste a Wikipedia or any web link, and ask questions based on that page.")
+st.caption("Paste a Wikipedia link, and ask questions based on that page.")
 
 # Store QA system in Streamlit session state
 if 'qa_system' not in st.session_state:
